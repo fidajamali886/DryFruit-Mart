@@ -24,31 +24,42 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="section-heading">
-      <h1>Contact Us</h1>
-      <p>We’re here to help. Reach out for product support or wholesale inquiries.</p>
-    </section>
-
-    <section class="contact-grid">
-      <div class="card">
-        <h2>Customer Support</h2>
-        <p>Email: support@dryfruitmart.com</p>
-        <p>Phone: +92-312972299-4</p>
+  <main class="container py-5">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <h1 class="fw-bold">Contact Us</h1>
+        <p class="text-muted">Have a question or need help with your order? Send us a message and we’ll respond quickly.</p>
+        <ul class="list-unstyled text-muted mb-4">
+          <li><strong>Address:</strong> 123 Market Street, Lahore</li>
+          <li><strong>Phone:</strong> +92 300 1234567</li>
+          <li><strong>Email:</strong> support@dryfruitstore.com</li>
+        </ul>
+        <div class="card border-0 shadow-sm p-4 bg-white">
+          <h5 class="mb-3">Working Hours</h5>
+          <p class="mb-1">Monday - Friday: 9:00 AM - 7:00 PM</p>
+          <p>Saturday: 10:00 AM - 5:00 PM</p>
+        </div>
       </div>
-      <div class="card contact-form">
-        <h2>Send a Message</h2>
-        <form>
-          <label>Name</label>
-          <input type="text" placeholder="Your name" />
-          <label>Email</label>
-          <input type="email" placeholder="Your email" />
-          <label>Message</label>
-          <textarea rows="5" placeholder="How can we help?"></textarea>
-          <button class="button primary" type="submit">Send Message</button>
-        </form>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm p-4 bg-white">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer style="margin-top: 15%;"  class="site-footer">
